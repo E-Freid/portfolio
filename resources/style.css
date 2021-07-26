@@ -1,3 +1,49 @@
-figure{
+/* universal */
+html{
+    background-color:#e2e5df;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around
+}
+
+/* nav */
+nav{
+    background-color: #50544e;
+    width: 100%;
+    padding: 0.125rem 0;
+}
+nav li{
+    display: inline;
+    font-size: 1.475rem;
+}
+
+nav a{
+    color: blanchedalmond;
+}
+
+/* banner */
+header{
+    width: 100%;
+    height: 30rem;
     overflow: hidden;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+}
+
+header img{
+    width: 350px;
+    height: 350px;
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 50%;
+}
+
+header h1{
+    display: inline;
 }
