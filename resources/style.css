@@ -28,11 +28,14 @@ nav a{
     color: blanchedalmond;
 }
 
+h2{
+    text-decoration: underline;
+}
+
 /* banner */
 header{
     width: 100%;
     height: 30rem;
-    overflow: auto;
     background-image: url(./images/background.jpg);
     background-size: cover;
     display: flex;
@@ -40,16 +43,24 @@ header{
     justify-content: space-around;
 }
 
-header img{
-    width: 350px;
+header figure{
+    max-width: 500px;
+    min-width: 260px;
     height: 350px;
-    min-width: 300px;
-    min-height: 300px;
+}
+
+header img{
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
+    flex-shrink: 2;
+    flex-grow: 2;
 }
 
 header h1{
-    display: inline-block;
     color: blanchedalmond;
     font-size: 3.255rem;
 }
+
+
+
