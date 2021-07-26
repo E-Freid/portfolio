@@ -13,6 +13,29 @@ ul{
     justify-content: space-around
 }
 
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.img-box{
+    width: 8%;
+    height: 10%;
+}
+
+h2{
+    text-decoration: underline;
+    font-size: 2.25rem;
+    margin-top: 150px;
+}
+
+p{
+    font-size: 1.35rem;
+}
 /* nav */
 nav{
     background-color: #50544e;
@@ -26,10 +49,6 @@ nav li{
 
 nav a{
     color: blanchedalmond;
-}
-
-h2{
-    text-decoration: underline;
 }
 
 /* banner */
@@ -62,5 +81,27 @@ header h1{
     font-size: 3.255rem;
 }
 
+/* skills */
+#about img{
+    width: 100%;
+}
 
+/* projects */
+#projects{
+    width: 100%;
+}
+
+#projects .img-box{
+    width: 45%;
+    margin: 15px;
+    padding: 0;
+}
+
+#projects a{
+    width: 100%;
+}
+
+#projects a img{
+    width: 100%;
+}
 
