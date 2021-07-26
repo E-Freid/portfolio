@@ -4,6 +4,7 @@ html{
     font-size: 20px;
     text-align: center;
     padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 ul{
@@ -31,9 +32,12 @@ nav a{
 header{
     width: 100%;
     height: 30rem;
-    overflow: hidden;
+    overflow: auto;
     background-image: url(./images/background.jpg);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 header img{
@@ -45,5 +49,7 @@ header img{
 }
 
 header h1{
-    display: inline;
+    display: inline-block;
+    color: blanchedalmond;
+    font-size: 3.255rem;
 }
